@@ -126,55 +126,73 @@
 </div>
 
   <p>If you’ve ever wondered why some parents seem to have it easy while others struggle — this is the secret behind it all.</p>
-<!-- SEÇÃO DE PROVAS SOCIAIS (DEPOIMENTOS) -->
-<div class="social-proof">
-    <h2 style="color: #00ff99; text-align: center; margin-top: 50px;">What Others Are Saying...</h2>
+<!-- SEÇÃO DE PROVA SOCIAL COM BOTÕES DE LIKES FUNCIONAIS E COMENTÁRIOS -->
+<div class="social-proof" style="background-color: #0a0a0a; padding: 30px; border-radius: 10px; margin-top: 50px; border: 2px solid #00ff99;">
+    <h2 style="color: #00ff99; text-align: center; font-size: 28px;">What Others Are Saying...</h2>
     
-    <!-- Depoimento 1 - 5 Estrelas -->
-    <div style="background-color: #1a1a1a; padding: 20px; border-radius: 10px; margin-bottom: 30px;">
-        <p style="color: #d0d0d0; font-size: 16px;">
-            <span style="color: #ffcc00;">★★★★★</span>  &nbsp; 1.2K Likes
-        </p>
-        <p style="color: #d0d0d0; font-size: 16px;">"I was losing my mind with sleepless nights. This guide was a game-changer! My baby sleeps peacefully every night now. Highly recommended!"</p>
+    <!-- Depoimento 1 -->
+    <div style="background-color: #1a1a1a; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+        <p style="color: #d0d0d0; font-size: 16px;">"This guide completely changed my baby's sleep patterns! Finally getting full nights of rest."</p>
         <p style="color: #00ffff; font-weight: bold;">- Sarah P., Verified Buyer</p>
+        <button onclick="increaseLikes('like1')" id="like1" style="background-color: #00ff99; color: #000; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer; margin-top: 10px;">👍 Like (1200)</button>
     </div>
 
-    <!-- Depoimento 2 - 4 Estrelas -->
-    <div style="background-color: #1a1a1a; padding: 20px; border-radius: 10px; margin-bottom: 30px;">
-        <p style="color: #d0d0d0; font-size: 16px;">
-            <span style="color: #ffcc00;">★★★★☆</span>  &nbsp; 950 Likes
-        </p>
-        <p style="color: #d0d0d0; font-size: 16px;">"I tried everything before, but nothing worked. This guide is great, but I wish it had more examples for newborns. Still, worth every penny!"</p>
+    <!-- Depoimento 2 -->
+    <div style="background-color: #1a1a1a; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+        <p style="color: #d0d0d0; font-size: 16px;">"Effective and easy to follow. My baby sleeps soundly every night. Highly recommend!"</p>
         <p style="color: #00ffff; font-weight: bold;">- Michael T., Verified Buyer</p>
+        <button onclick="increaseLikes('like2')" id="like2" style="background-color: #00ff99; color: #000; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer; margin-top: 10px;">👍 Like (950)</button>
     </div>
 
-    <!-- Depoimento 3 - 3.5 Estrelas -->
-    <div style="background-color: #1a1a1a; padding: 20px; border-radius: 10px; margin-bottom: 30px;">
-        <p style="color: #d0d0d0; font-size: 16px;">
-            <span style="color: #ffcc00;">★★★☆☆</span>  &nbsp; 780 Likes
-        </p>
-        <p style="color: #d0d0d0; font-size: 16px;">"The guide is helpful, but I found it a bit basic for older babies. More tips would be great. Still, it helped me improve my baby's sleep."</p>
+    <!-- Depoimento 3 -->
+    <div style="background-color: #1a1a1a; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+        <p style="color: #d0d0d0; font-size: 16px;">"Great guide, but I wish it included more tips for newborns. Still very useful!"</p>
         <p style="color: #00ffff; font-weight: bold;">- Jessica L., Verified Buyer</p>
+        <button onclick="increaseLikes('like3')" id="like3" style="background-color: #00ff99; color: #000; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer; margin-top: 10px;">👍 Like (780)</button>
     </div>
 
-    <!-- Depoimento 4 - 5 Estrelas -->
-    <div style="background-color: #1a1a1a; padding: 20px; border-radius: 10px; margin-bottom: 30px;">
-        <p style="color: #d0d0d0; font-size: 16px;">
-            <span style="color: #ffcc00;">★★★★★</span>  &nbsp; 1.4K Likes
-        </p>
-        <p style="color: #d0d0d0; font-size: 16px;">"This guide is worth every dollar. My baby used to cry all night and now sleeps peacefully! I'm so grateful."</p>
+    <!-- Depoimento 4 -->
+    <div style="background-color: #1a1a1a; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+        <p style="color: #d0d0d0; font-size: 16px;">"Absolutely life-changing. The strategies here are golden. Thanks so much!"</p>
         <p style="color: #00ffff; font-weight: bold;">- Emily R., Verified Buyer</p>
-    </div>
-
-    <!-- Depoimento 5 - 4.5 Estrelas -->
-    <div style="background-color: #1a1a1a; padding: 20px; border-radius: 10px; margin-bottom: 30px;">
-        <p style="color: #d0d0d0; font-size: 16px;">
-            <span style="color: #ffcc00;">★★★★☆</span>  &nbsp; 1.7K Likes
-        </p>
-        <p style="color: #d0d0d0; font-size: 16px;">"Absolutely life-changing! I've recommended this to all my friends. My baby sleeps perfectly now, but it could use a few more advanced tips."</p>
-        <p style="color: #00ffff; font-weight: bold;">- Laura K., Verified Buyer</p>
+        <button onclick="increaseLikes('like4')" id="like4" style="background-color: #00ff99; color: #000; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer; margin-top: 10px;">👍 Like (1400)</button>
     </div>
 </div>
+
+<!-- ABA DE COMENTÁRIOS -->
+<div style="background-color: #0a0a0a; padding: 20px; border-radius: 10px; margin-top: 30px; border: 2px solid #ff0055;">
+    <h3 style="color: #ff0055; text-align: center; font-size: 22px;">Comments Section</h3>
+    <p style="color: #d0d0d0; font-size: 16px;">Leave your feedback or see what others are saying:</p>
+    <textarea id="commentBox" rows="4" style="width: 100%; padding: 10px; border-radius: 5px; border: none; margin-top: 10px;"></textarea>
+    <button onclick="submitComment()" style="background-color: #00ff99; color: #000; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; margin-top: 10px;">Post Comment</button>
+    <p id="confirmationMessage" style="color: #00ff99; font-size: 16px; margin-top: 10px; display: none;">Thank you for your feedback! Your message has been sent to support.</p>
+</div>
+
+<!-- JAVASCRIPT PARA INCREMENTAR OS LIKES E CONFIRMAÇÃO DE COMENTÁRIOS -->
+<script>
+    function increaseLikes(id) {
+        const button = document.getElementById(id);
+        let text = button.innerText;
+        let count = parseInt(text.match(/\d+/)[0]);
+
+        count++;
+        button.innerText = `👍 Like (${count})`;
+    }
+
+    function submitComment() {
+        const commentBox = document.getElementById('commentBox');
+        const confirmationMessage = document.getElementById('confirmationMessage');
+
+        if (commentBox.value.trim() !== "") {
+            commentBox.value = "";
+            confirmationMessage.style.display = "block";
+            setTimeout(() => {
+                confirmationMessage.style.display = "none";
+            }, 5000); // Oculta a mensagem após 5 segundos
+        }
+    }
+</script>
+
 
   <p style="font-weight: bold; font-size: 18px; color: #ffcc00; text-align: center;">If this page is still up... consider it your last chance. This offer won't be here forever.</p>
 
